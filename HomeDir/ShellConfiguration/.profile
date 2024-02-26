@@ -74,8 +74,25 @@ export QT_IN_MODULE=ibus
 #! Sourcing other files/directoryes
 [[ -f $HOME/.cargo/env ]] && source $HOME/.cargo/env
 
+#! Functions
+stow_home() {
+    local startdir="$PWD"
+    local stow_dir="$HOME/StowFiles/HomeDir"
+    
+    (
+        cd "$stow_dir" || return
+        for package in */; do
+            package="${package%/}"  # Remove trailing slash
+            stow --target="$HOME" "$package"
+        done
+    )
+
+    cd "$startdir" || return
+}
+
+# alias stow_home="startdir=$PWD; cd; cd StowFiles/HomeDir; stow --target=$HOME */; cd $startdir"
+
 #! Aliases
-alias stow_home="startdir=$PWD; cd; cd StowFiles/HomeDir; stow --target=$HOME */; cd $startdir"
 #alias ssh='kitty +kitten ssh'
 
 #! Misc
