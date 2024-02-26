@@ -1,0 +1,20 @@
+[[languages]]
+name = "julia"
+scope = "source.julia"
+injection-regex = "julia"
+file-types = ["jl"]
+roots = ["Project.toml", "Manifest.toml", "JuliaProject.toml"]
+comment-token = "#"
+language-server = { command = "julia", args = [
+#    "--project=@helix-lsp",
+    "--startup-file=no",
+    "--history-file=no",
+    "--quiet",
+    "-e",
+    "using LanguageServer; runserver()"
+    ] }
+indent = { tab-width = 4, unit = "    " }
+
+[[grammar]]
+name = "julia"
+source = { git = "https://github.com/tree-sitter/tree-sitter-julia", rev="master"}

@@ -1,0 +1,14 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Alt-Z": "command:set wordwrap on,command:set softwrap on",
+    "Alt-d": "command:definition",
+    "Alt-f": "command:format",
+    "Alt-k": "command:hover",
+    "Alt-r": "command:references",
+    "Alt-z": "command:set wordwrap off,command:set softwrap off",
+    "Ctrl-k": "DeleteLine",
+    "CtrlDelete": "DeleteWordRight",
+    "CtrlSpace": "command:lspcompletion",
+    "CtrlUnderscore": "lua:comment.comment",
+    "OldBackspace": "DeleteWordLeft"
+}

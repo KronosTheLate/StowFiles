@@ -1,0 +1,179 @@
+{
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": true,
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
+  "editor.fontFamily": "JuliaMono",
+  "theme-by-language.themes": {
+    "julia": "Julia (Monokai Vibrant)",
+    "python": "Dark+",
+    "*": "Default Dark+"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "julia.usePlotPane": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "julia.enableCrashReporter": true,
+  "julia.NumThreads": "auto",
+  "remote.SSH.remotePlatform": {
+    "192.168.137.35": "linux"
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "α": true,
+    "σ": true,
+    "ρ": true,
+    "ν": true,
+    "γ": true,
+    "×": true,
+    "𝚃": true,
+    "𝚁": true
+  },
+  "settingsSync.ignoredSettings": [
+    "editor.fontSize"
+  ],
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "julia.execution.resultType": "inline, errors in REPL",
+  "git.confirmSync": false,
+  "[Log]": {
+    "editor.wordWrap": "on"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "explorer.confirmDelete": false,
+  "git.allowNoVerifyCommit": true,
+  "editor.codeLensFontFamily": "JuliaMono",
+  "editor.fontLigatures": "'zero', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06',  'ss07', 'ss08', 'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14'",
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "¤",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "diffEditor.renderSideBySide": false,
+  "explorer.sortOrder": "type",
+  "latex-workshop.latex.bibDirs": [
+    "C:/Users/Dennis Bal/GeekyStuff/LaTeX",
+  ],
+  "ltex.language": "en-GB",
+  "ltex.completionEnabled": false, // Only one true 
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "latex-workshop.intellisense.citation.backend": "biblatex",
+  "quarto.mathjax.theme": "dark",
+  "julia.useCustomSysimage": true,
+  "editor.tabCompletion": "on",
+  "editor.acceptSuggestionOnEnter": "off",
+  // "workbench.editorAssociations": {   // Commenten out, as it value was not accepted.
+  // "*.pdf": "latex-workshop-pdf-hook"
+  // },
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.panel.defaultLocation": "right",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.autoClosingBrackets": "never",
+  "julia.executablePath": "/home/dennishb/.juliaup/bin/julia",
+  "update.mode": "manual", // at a time,
+  "files.associations": {
+    "*.m": "matlab"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "cSpell.enableFiletypes": [
+    "typst"
+  ],
+  "cSpell.userWords": [
+    "AIOD",
+    "DAQC",
+    "ECTS",
+    "GPIO",
+    "multimeters",
+    "overvoltage",
+    "pinout"
+  ],
+  "editor.wordWrap": "bounded",
+  "typst-lsp.exportPdf": "never",
+"code-runner.runInTerminal": true,
+  "editor.indentSize": "tabSize",
+  "editor.stickyTabStops": true,
+  "typst-preview.refresh": "onSave",
+  "workbench.editor.tabSizing": "shrink",
+  "julia.execution.saveOnEval": true,
+  "julia.plots.path": "Pictures",
+  "julia.additionalArgs": [
+    "--startup=no"
+  ],
+  "editor.fontSize": 13,
+  "cSpell.language": "en-GB, no",
+  "python.defaultInterpreterPath": "/bin/python3",
+  "[typst]": {
+    "editor.wordWrap": "bounded"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "bounded"
+  },
+  "cmake.configureOnOpen": true,
+  "cmake.showOptionsMovedNotification": false,
+  "editor.detectIndentation": false,
+}

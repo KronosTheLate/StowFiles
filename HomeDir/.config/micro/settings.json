@@ -1,0 +1,3 @@
+{
+    "lsp.server": "julia=julia --startup-file%3dno --history-file%3dno -e using%20LanguageServer;%20runserver()"
+}

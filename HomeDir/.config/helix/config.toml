@@ -1,0 +1,14 @@
+theme="onedark"
+
+[editor.soft-wrap]
+enable = true
+
+[keys.insert]
+"C-s" = ":write" # Maps Ctrl-s to the typable command :w which is an alias for :write (save file)
+"C-i" = "normal_mode"     # Maps Ctrl-i to enter normal mode
+"C-q" = ":write-quit"
+
+[keys.normal]
+"C-s" = ":write" # Maps Ctrl-s to the typable command :w which is an alias for :write (save file)
+"C-j" = "save_selection"
+"C-q" = ":write-quit"
