@@ -31,6 +31,8 @@ add_dir_to_path "/bin"
 add_dir_to_path "/sbin"
 add_dir_to_path "$HOME/Applications"
 add_dir_to_path "/home/linuxbrew/.linuxbrew/bin"
+add_dir_to_path "$HOME/.juliaup/bin"
+add_dir_to_path "$HOME/.julia/juliaup/bin"
 
 # case ":$PATH:" in *:$HOME/.local/bin:*);; *)
 #     if [[ -d $HOME/.local/bin ]] ; then

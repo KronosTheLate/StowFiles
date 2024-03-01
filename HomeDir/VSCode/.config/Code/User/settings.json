@@ -4,7 +4,7 @@
   ],
   "julia.symbolCacheDownload": true,
   "julia.enableTelemetry": true,
-  "workbench.colorTheme": "Julia (Monokai Vibrant)",
+  "workbench.colorTheme": "Dark+",
   "editor.fontFamily": "JuliaMono",
   "theme-by-language.themes": {
     "julia": "Julia (Monokai Vibrant)",
@@ -134,7 +134,7 @@
     "editor.formatOnType": true
   },
   "editor.autoClosingBrackets": "never",
-  "julia.executablePath": "/home/dennishb/.juliaup/bin/julia",
+  "julia.executablePath": "/home/dennis/.juliaup/bin/julia",
   "update.mode": "manual", // at a time,
   "files.associations": {
     "*.m": "matlab"
@@ -151,8 +151,7 @@
     "multimeters",
     "overvoltage",
     "pinout"
-  ],
-  "editor.wordWrap": "bounded",
+],
   "typst-lsp.exportPdf": "never",
 "code-runner.runInTerminal": true,
   "editor.indentSize": "tabSize",
@@ -175,5 +174,6 @@
   },
   "cmake.configureOnOpen": true,
   "cmake.showOptionsMovedNotification": false,
-  "editor.detectIndentation": false,
+"editor.detectIndentation": false,
+"jupyter.askForKernelRestart": false,
 }
