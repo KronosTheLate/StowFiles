@@ -4,7 +4,7 @@
   ],
   "julia.symbolCacheDownload": true,
   "julia.enableTelemetry": true,
-  "workbench.colorTheme": "Dark+",
+  "workbench.colorTheme": "Default Dark+",
   "editor.fontFamily": "JuliaMono",
   "theme-by-language.themes": {
     "julia": "Julia (Monokai Vibrant)",

@@ -92,9 +92,12 @@ stow_home() {
     cd "$startdir" || return
 }
 
-# alias stow_home="startdir=$PWD; cd; cd StowFiles/HomeDir; stow --target=$HOME */; cd $startdir"
-
+# See https://unix.stackexchange.com/questions/85352/how-can-i-alias-sudo for the inspiration
+fuck() {
+	sudo $(fc -ln -1)	
+}
 #! Aliases
+#alias fuck="sudo !!"  # Makes running `fuck` rerun the previous command as sudo
 #alias ssh='kitty +kitten ssh'
 
 #! Misc
