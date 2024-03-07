@@ -93,7 +93,7 @@ stow_home() {
 }
 
 # See https://unix.stackexchange.com/questions/85352/how-can-i-alias-sudo for the inspiration
-fuck() {
+please() {
 	sudo $(fc -ln -1)	
 }
 #! Aliases
