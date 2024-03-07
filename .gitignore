@@ -1,0 +1,2 @@
+# Dolphin keeps making .directory files when I change directory settings, like showing hidden files
+*.directory
