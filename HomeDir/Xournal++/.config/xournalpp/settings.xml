@@ -146,6 +146,14 @@
     </data>
   </data>
   <data name="deviceClasses">
+    <data name="ELAN0678:00 04F3:3195 Mouse">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
+    </data>
+    <data name="ELAN0678:00 04F3:3195 Touchpad">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="6"/>
+    </data>
     <data name="Elan Touchpad">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="6"/>
@@ -153,6 +161,14 @@
     <data name="Elan TrackPoint">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="7"/>
+    </data>
+    <data name="GTCH7503:00 2A94:A819">
+      <attribute name="deviceClass" type="int" value="4"/>
+      <attribute name="deviceSource" type="int" value="5"/>
+    </data>
+    <data name="Logitech MX Master 3">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
     </data>
     <data name="Logitech Wireless Mouse MX Master 3">
       <attribute name="deviceClass" type="int" value="1"/>
@@ -165,6 +181,10 @@
     <data name="PixArt USB Optical Mouse">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
+    </data>
+    <data name="TPPS/2 Elan TrackPoint">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="7"/>
     </data>
     <data name="Wacom Intuos S Pad">
       <attribute name="deviceClass" type="int" value="2"/>

@@ -130,3 +130,9 @@ case ":$PATH:" in
 esac
 
 # <<< juliaup initialize <<<
+
+# >>> My own content >>>
+# Source .profile if it exists
+[[ -f $HOME/.profile ]] && source $HOME/.profile
+
+# <<< My own content <<<
