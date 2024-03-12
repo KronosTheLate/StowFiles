@@ -19,7 +19,7 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
-  <property name="sidebarWidth" value="50"/>
+  <property name="sidebarWidth" value="117"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
   <property name="menubarVisible" value="true"/>
@@ -112,7 +112,7 @@
   <property name="latexSettings.autoCheckDependencies" value="true"/>
   <property name="latexSettings.globalTemplatePath" value="/usr/share/xournalpp/resources/default_template.tex"/>
   <property name="latexSettings.genCmd" value="/home/dennis/bin/pdflatex -halt-on-error -interaction=nonstopmode '{}'"/>
-  <property name="font" font="Liberation Sans" size="10.00000000"/>
+  <property name="font" font="Liberation Sans" size="12.00000000"/>
   <data name="buttonConfig">
     <data name="default">
       <attribute name="color" type="hex" value="ff000000"/>
