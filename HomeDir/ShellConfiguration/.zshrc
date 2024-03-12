@@ -8,7 +8,7 @@ fi
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 plug "romkatv/powerlevel10k"
-plug "zsh-users/zsh-autosuggestions"
+#plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 #plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
@@ -41,4 +41,6 @@ unset __conda_setup
 # Source .profile if it exists
 [[ -f $HOME/.profile ]] && source $HOME/.profile
 
+[[ -f /usr/share/doc/fzf/examples/key-bindings.zsh ]] && source /usr/share/doc/fzf/examples/key-bindings.zsh
+[[ -f /usr/share/doc/fzf/examples/completion.zsh ]] && source /usr/share/doc/fzf/examples/completion.zsh
 # <<< My own content <<<

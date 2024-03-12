@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1.00000000"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="DraculaDark Minimal Left"/>
-  <property name="lastSavePath" value="/home/dennishb/Cloud/dennishb/Uni/Semester/7. Sem/Statistical Signal Processing/2022-10-04 Lecture 5 Simple Kalman filter"/>
+  <property name="lastSavePath" value="/home/dennis/MasterProject/10. Sem"/>
   <property name="lastOpenPath" value="/home/dennishb/Uni/Semester/9. Sem/Quantum Engineering"/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20.00000000"/>
@@ -111,8 +111,8 @@
   <property name="stabilizerFinalizeStroke" value="true"/>
   <property name="latexSettings.autoCheckDependencies" value="true"/>
   <property name="latexSettings.globalTemplatePath" value="/usr/share/xournalpp/resources/default_template.tex"/>
-  <property name="latexSettings.genCmd" value="pdflatex -halt-on-error -interaction=nonstopmode '{}'"/>
-  <property name="font" font="Sans" size="9.00000000"/>
+  <property name="latexSettings.genCmd" value="/home/dennis/bin/pdflatex -halt-on-error -interaction=nonstopmode '{}'"/>
+  <property name="font" font="Liberation Sans" size="10.00000000"/>
   <data name="buttonConfig">
     <data name="default">
       <attribute name="color" type="hex" value="ff000000"/>
@@ -132,12 +132,12 @@
       <attribute name="tool" type="string" value="none"/>
     </data>
     <data name="stylus">
-      <attribute name="tool" type="string" value="selectRegion"/>
-    </data>
-    <data name="stylus2">
       <attribute name="eraserMode" type="string" value="none"/>
       <attribute name="size" type="string" value="none"/>
       <attribute name="tool" type="string" value="eraser"/>
+    </data>
+    <data name="stylus2">
+      <attribute name="tool" type="string" value="selectRegion"/>
     </data>
     <data name="touch">
       <attribute name="device" type="string" value=""/>
@@ -244,7 +244,7 @@
     <attribute name="count" type="int" value="9"/>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="eraser"/>
+    <attribute name="current" type="string" value="selectRect"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -279,11 +279,11 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="df984c"/>
-      <attribute name="drawingType" type="string" value="strokeRecognizer"/>
+      <attribute name="color" type="hex" value="6bb9dd"/>
+      <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="255"/>
-      <attribute name="size" type="string" value="THIN"/>
+      <attribute name="size" type="string" value="BIG"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
@@ -302,7 +302,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="text">
-      <attribute name="color" type="hex" value="df984c"/>
+      <attribute name="color" type="hex" value="6bb9dd"/>
       <attribute name="drawingType" type="string" value="arrow"/>
     </data>
     <data name="verticalSpace">

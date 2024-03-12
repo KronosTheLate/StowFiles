@@ -134,5 +134,6 @@ esac
 # >>> My own content >>>
 # Source .profile if it exists
 [[ -f $HOME/.profile ]] && source $HOME/.profile
-
+[[ -f /usr/share/doc/fzf/examples/key-bindings.bash ]] && source /usr/share/doc/fzf/examples/key-bindings.bash
+[[ -f /usr/share/doc/fzf/examples/completion.bash ]] && source /usr/share/doc/fzf/examples/completion.bash
 # <<< My own content <<<
