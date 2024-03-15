@@ -4,7 +4,7 @@
   ],
   "julia.symbolCacheDownload": true,
   "julia.enableTelemetry": true,
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Dark+",
   "editor.fontFamily": "JuliaMono",
   "theme-by-language.themes": {
     "julia": "Julia (Monokai Vibrant)",
@@ -165,7 +165,7 @@
 ],
 "editor.fontSize": 13,
 "cSpell.language": "en-GB, no",
-"python.defaultInterpreterPath": "/bin/python3",
+"python.defaultInterpreterPath": "/home/dennis/miniconda3/envs/MasterProject/bin/python",
   "[typst]": {
     "editor.wordWrap": "bounded"
   },

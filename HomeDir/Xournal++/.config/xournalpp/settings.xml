@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1.00000000"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="DraculaDark Minimal Left"/>
-  <property name="lastSavePath" value="/home/dennis/MasterProject/10. Sem"/>
+  <property name="lastSavePath" value="/home/dennis/MasterProject/10. Sem/MeetingStuff/March 13th"/>
   <property name="lastOpenPath" value="/home/dennishb/Uni/Semester/9. Sem/Quantum Engineering"/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20.00000000"/>
@@ -19,7 +19,7 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
-  <property name="sidebarWidth" value="117"/>
+  <property name="sidebarWidth" value="50"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
   <property name="menubarVisible" value="true"/>
@@ -244,7 +244,7 @@
     <attribute name="count" type="int" value="9"/>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="selectRect"/>
+    <attribute name="current" type="string" value="pen"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -279,11 +279,11 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="6bb9dd"/>
+      <attribute name="color" type="hex" value="30da5b"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="255"/>
-      <attribute name="size" type="string" value="BIG"/>
+      <attribute name="size" type="string" value="THIN"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
@@ -302,7 +302,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="text">
-      <attribute name="color" type="hex" value="6bb9dd"/>
+      <attribute name="color" type="hex" value="df984c"/>
       <attribute name="drawingType" type="string" value="arrow"/>
     </data>
     <data name="verticalSpace">

@@ -136,4 +136,8 @@ esac
 [[ -f $HOME/.profile ]] && source $HOME/.profile
 [[ -f /usr/share/doc/fzf/examples/key-bindings.bash ]] && source /usr/share/doc/fzf/examples/key-bindings.bash
 [[ -f /usr/share/doc/fzf/examples/completion.bash ]] && source /usr/share/doc/fzf/examples/completion.bash
+
+# Enable zoxide, a better cd
+eval "$(zoxide init bash)"
+eval $(zoxide init --cmd cd bash)  # Alias cd to z, and cdi to zi
 # <<< My own content <<<

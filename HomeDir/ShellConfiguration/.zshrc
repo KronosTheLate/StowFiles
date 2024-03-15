@@ -43,4 +43,8 @@ unset __conda_setup
 
 [[ -f /usr/share/doc/fzf/examples/key-bindings.zsh ]] && source /usr/share/doc/fzf/examples/key-bindings.zsh
 [[ -f /usr/share/doc/fzf/examples/completion.zsh ]] && source /usr/share/doc/fzf/examples/completion.zsh
+
+# Enable zoxide, a better cd
+eval "$(zoxide init zsh)"
+eval $(zoxide init --cmd cd zsh)  # Make cd alias to z, and cdi alias to zi
 # <<< My own content <<<
